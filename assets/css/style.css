@@ -85,6 +85,32 @@ ul.nav.navbar-nav.navbar-right li a:hover {
     background: #F7B617;
 }
 
+.contain_informacion {
+    border: 1px solid white;
+    margin: 40px 40px 40px 0;
+    padding: 30px;
+    border-left: none;
+}
+
+.contain_informacion img {
+  padding-left: 40px;
+}
+
+.info {
+    color: white;
+}
+
+.info h1 {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 1.7em;
+    padding-right: 90px;
+    padding-bottom: 10px;
+}
+
 /* CONDUCE */
 .section_conduce {
     background-image: url("../img/conduce.jpg");

@@ -23,7 +23,8 @@ function initMap() {
 
     crearListener(autocompleteDestino, detalleUbicacionDestino, markerDestino);
 
-
+    /* Mi ubicación actual */
+    //RECORDAR BUSCAR COMO HACER QUE AL CARGAR MUESTRE LA UBICACION ACTUAL
     /* Ruta */
     var directionsService = new google.maps.DirectionsService;
     var directionsDisplay = new google.maps.DirectionsRenderer;
