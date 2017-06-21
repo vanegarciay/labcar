@@ -35,7 +35,7 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 .contain_hero {
     background: rgb(247, 182, 23);
     padding: 10px 30px 30px;
-    margin: 80px;
+    margin: 20px 0 20px 20px;
     width: 89%;
 }
 
@@ -43,4 +43,22 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 
 .section_informacion {
     background: #F7B617;
+}
+
+/* CONDUCE */
+.section_conduce {
+    background-image: url("../img/conduce.jpg");
+    background-size: cover;
+    height: 400px;
+    padding-right: 0;
+    background-position: 0 40%;
+}
+
+.contain_conduce {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    margin: 20px 0 20px 20px;
+    width: 89%;
+    height: 100%;
+    color: white;
 }
