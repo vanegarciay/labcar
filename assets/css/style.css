@@ -122,11 +122,26 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 
 .contain_conduce {
     background: rgba(0, 0, 0, 0.4);
-    padding: 50px;
-    margin: 15px;
-    width: 100%;
-    height: 100%;
+    padding: 60px;
     color: white;
+}
+
+.contain_conduce button {
+    background: #F7B617;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.contain_conduce h1 {
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+.contain_conduce p {
+    font-size: 1.4em;
+    padding-bottom: 10px;
 }
 
 /* TARIFAS */
