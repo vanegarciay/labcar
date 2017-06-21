@@ -38,3 +38,9 @@ ul.nav.navbar-nav.navbar-right li a:hover {
     margin: 80px;
     width: 89%;
 }
+
+/* INFORMACIÓN */
+
+.section_informacion {
+    background: #F7B617;
+}
