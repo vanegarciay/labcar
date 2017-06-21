@@ -62,3 +62,13 @@ ul.nav.navbar-nav.navbar-right li a:hover {
     height: 100%;
     color: white;
 }
+
+/* TARIFAS */
+
+.section_tarifas {
+    background: #f7b617;
+}
+
+#map {
+    height: 400px;
+}
