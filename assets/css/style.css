@@ -131,6 +131,7 @@ ul.nav.navbar-nav.navbar-right li a:hover {
     color: white;
     border: none;
     font-weight: bold;
+    font-size: 1.2em;
     padding: 10px;
 }
 
@@ -148,10 +149,51 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 
 .section_tarifas {
     background: #f7b617;
+    padding: 40px;
+    color: white;
 }
 
 #map {
-    height: 400px;
+    height: 500px;
+    width: 559px;
+    
+}
+
+.contain_map {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.contain_tarifas h1 {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.contain_tarifas p {
+    font-size: 1.3em;
+    padding-bottom: 20px;
+}
+
+#origen, #destino {
+    background: transparent;
+    border: 1px solid white;
+    padding: 8px;
+    width: 60%;
+    border-radius: 9px;
+    margin-left: 20px;
+}
+
+#origen::placeholder, #destino::placeholder {
+    color: white;
+}
+
+#ruta {
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    width: 30%;
+    margin-left: 20%;
+
 }
 
 /* FOOTER */
