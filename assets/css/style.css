@@ -14,7 +14,7 @@
 }
 
 ul.nav.navbar-nav.navbar-right li a {
-    color: black;
+    color: #262424;
     padding: 25px;
 }
 
@@ -29,4 +29,12 @@ ul.nav.navbar-nav.navbar-right li a:hover {
     height: 100vh;
     background-size: cover;
     background-position: 0 94%;
+    padding-right: 0;
+}
+
+.contain_hero {
+    background: rgb(247, 182, 23);
+    padding: 10px 30px 30px;
+    margin: 80px;
+    width: 89%;
 }
