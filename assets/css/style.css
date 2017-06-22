@@ -193,19 +193,22 @@ button.navbar-toggle {
     background: transparent;
     border: 1px solid white;
     padding: 8px;
+    min-width: 13em;
     width: 60%;
     border-radius: 9px;
-    margin-left: 20px;
+    margin: 0 auto;
 }
 
 #origen::placeholder, #destino::placeholder {
     color: white;
+    font-size: 0.8em;
 }
 
 #ruta {
     font-weight: bold;
     color: black;
     padding: 10px;
+    min-width: 9em;
     width: 30%;
     margin-left: 20%;
 }
