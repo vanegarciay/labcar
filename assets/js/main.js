@@ -24,9 +24,9 @@ function initMap() {
     crearListener(autocompleteDestino, detalleUbicacionDestino, markerDestino);
 
     /* Mi ubicación actual */
-    /*window.onload = function() {
+    window.onload = function() {
        buscarMiUbicacion();
-    };*/
+    };
     /* Ruta */
     var directionsService = new google.maps.DirectionsService;
     var directionsDisplay = new google.maps.DirectionsRenderer;
