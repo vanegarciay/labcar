@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+    .row-eq-height {
+        display: block;
+    }
+    .contain_informacion {
+        border: 1px solid white;
+        margin: 40px 40px 20px 40px;
+    }
+}
