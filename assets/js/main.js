@@ -103,7 +103,7 @@ function initMap() {
 
     function crearMarcador() {
         var icono = {
-            url: 'http://icons.iconarchive.com/icons/sonya/swarm/128/Bike-icon.png',
+            url: 'http://icons.iconarchive.com/icons/aha-soft/perfect-transport/48/Taxi-icon.png',
             size: new google.maps.Size(71, 71),
             origin: new google.maps.Point(0, 0),
             anchor: new google.maps.Point(17, 34),
