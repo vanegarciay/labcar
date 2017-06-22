@@ -134,7 +134,7 @@ function initMap() {
             function(response, status) {
                 if (status === "OK") {
                     directionsDisplay.setDirections(response);
-                    contarKm(origin,destination);
+                    contarKm(origen,destino);
                 } else {
                     funcionErrorRuta();
                 }
@@ -147,6 +147,8 @@ function initMap() {
     }
 
 function contarKm(origen,destino) {
+        var origen = document.getElementById("origen").value;
+        var destino = document.getElementById('destino').value;
         var geocoder = new google.maps.Geocoder;
         var service = new google.maps.DistanceMatrixService;
 
@@ -162,7 +164,7 @@ function contarKm(origen,destino) {
                 alert('Error was: ' + status);
             } else {
                 var results = response.rows[0].elements;
-                console.log(results[0].distance.text + ' (' + results[0].duration.text + ')'); // Distancia y tiempo
+                alert(results[0].distance.text + ' (' + results[0].duration.text + ')'); // Distancia y tiempo
             }
         });
     }
