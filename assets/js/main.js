@@ -11,7 +11,7 @@ function initMap() {
     var autocompleteOrigen = new google.maps.places.Autocomplete(inputOrigen);
     autocompleteOrigen.bindTo('bounds', map);
     var detalleUbicacionOrigen = new google.maps.InfoWindow();
-    var markerOrigen = crearMarcador(map);
+    var markerOrigen = crearMarcador();
 
     crearListener(autocompleteOrigen, detalleUbicacionOrigen, markerOrigen);
 
@@ -19,12 +19,14 @@ function initMap() {
     var autocompleteDestino = new google.maps.places.Autocomplete(inputDestino);
     autocompleteDestino.bindTo('bounds', map);
     var detalleUbicacionDestino = new google.maps.InfoWindow();
-    var markerDestino = crearMarcador(map);
+    var markerDestino = crearMarcador();
 
     crearListener(autocompleteDestino, detalleUbicacionDestino, markerDestino);
 
     /* Mi ubicación actual */
-    //RECORDAR BUSCAR COMO HACER QUE AL CARGAR MUESTRE LA UBICACION ACTUAL
+    window.onload = function() {
+       buscarMiUbicacion();
+    };
     /* Ruta */
     var directionsService = new google.maps.DirectionsService;
     var directionsDisplay = new google.maps.DirectionsRenderer;
@@ -99,7 +101,7 @@ function initMap() {
         detalleUbicacion.open(map, marker);
     }
 
-    function crearMarcador(map) {
+    function crearMarcador() {
         var icono = {
             url: 'http://icons.iconarchive.com/icons/sonya/swarm/128/Bike-icon.png',
             size: new google.maps.Size(71, 71),

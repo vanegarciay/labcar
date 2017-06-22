@@ -162,6 +162,7 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 .contain_map {
     border: 1px solid white;
     padding: 10px;
+    color: black;
 }
 
 .contain_tarifas h1 {
@@ -193,10 +194,46 @@ ul.nav.navbar-nav.navbar-right li a:hover {
     padding: 10px;
     width: 30%;
     margin-left: 20%;
-
 }
 
 /* FOOTER */
-.section_footer {
+
+footer {
     background: #2B2B2B;
+    color: white;
+}
+
+footer h1 img {
+    padding-top: 70px;
+}
+
+footer i {
+    padding: 5px;
+}
+
+footer ul li {
+    list-style: none;
+    line-height: 3em;
+}
+
+footer .content-app-logos img {
+    padding: 1em;
+    width: 70%;
+}
+
+footer p {
+    padding-bottom: 40px;
+}
+
+/* AUXILIAR */
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.row-bottom-align {
+    align-items: flex-end;
 }
