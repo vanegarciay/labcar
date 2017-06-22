@@ -18,7 +18,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-responsivo" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#menu-responsivo" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -40,8 +40,8 @@
     <section class="section_hero">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-offset-7 col-md-5">
-                    <div class="contain_hero">
+                <div class="col-md-offset-7 col-md-5 col-xs-offset-1 col-xs-11">
+                    <div class="contain_hero hidden-xs">
                         <h1>Disfruta del viaje <br> Eres el dueño de tu tiempo</h1>
                         <h2>Viaja con <img src="assets/img/logo-blanco.png"></h2>
                         <p>REGISTRATE</p>
@@ -49,6 +49,11 @@
                             <span>O bien</span>
                         </div>
                         <button class="btn btn-default">Conviértete en un conductor</button>
+                    </div>
+                    <div class="contain_hero hidden-md hidden-lg">
+                        <h1>Comienza a<br>viajar con</h1>
+                        <h2><img src="assets/img/logo-blanco.png"></h2>
+                        <button class="btn btn-default">Descarga el app</button>
                     </div>
                 </div>
             </div>
@@ -59,20 +64,26 @@
         <div class="row">
             <div class="col-md-10 contain_informacion">
                 <div class="col-md-6">
+                    <h1 class="hidden-lg hidden-md">La nueva app</h1>
                     <img class="center" src="assets/img/celular.png">
                 </div>
-                <div class="col-md-6 info">
+                <div class="col-md-6 info hidden-xs">
                     <h1>Descarga la nueva app</h1>
                     <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
                     <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Subete y no te preocupes: tu conductor sabe exactamente donde ir.</p>
                 </div>
             </div>
         </div>
+        <div class="row hidden-md hidden-lg">
+            <div class="col-xs-12">
+                <h3>Llega a tu destino aún más rapido</h3>
+            </div>
+        </div>
     </section>
     <!--SECCIÓN CONDUCE-->
     <section class="section_conduce container-fluid">
         <div class="row">
-            <div class="col-md-offset-8 col-md-4">
+            <div class="col-md-offset-8 col-md-4 col-xs-12">
                 <div class="contain_conduce">
                     <h1>Conduce cuando quieras</h1>
                     <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>

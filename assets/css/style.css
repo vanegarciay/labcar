@@ -22,6 +22,16 @@ ul.nav.navbar-nav.navbar-right li a:hover {
     color: #f7b617;
 }
 
+/* MENU MOBILE */
+
+button.navbar-toggle {
+    border: none;
+}
+
+#menu-responsivo {
+    background-color: white;
+}
+
 /* HERO */
 
 .section_hero {
@@ -94,6 +104,7 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 
 .contain_informacion img {
   padding-left: 40px;
+  width: 87%;
 }
 
 .info {
@@ -120,6 +131,7 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 
 .section_conduce > .row > div {
     padding-right: 0;
+    padding-left: 0;
 }
 
 .contain_conduce {
@@ -157,7 +169,7 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 
 #map {
     height: 500px;
-    width: 559px;
+    width: 100%;
     
 }
 
