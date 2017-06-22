@@ -11,6 +11,7 @@
     font-weight: bold;
     font-size: 1.2em;
     border: none;
+    z-index: 99999;
 }
 
 ul.nav.navbar-nav.navbar-right li a {
@@ -22,10 +23,15 @@ ul.nav.navbar-nav.navbar-right li a:hover {
     color: #f7b617;
 }
 
+a.navbar-brand img {
+    width: 90%;
+}
+
 /* MENU MOBILE */
 
 button.navbar-toggle {
     border: none;
+    padding: 17px 40px;
 }
 
 #menu-responsivo {
