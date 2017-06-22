@@ -144,9 +144,9 @@ function initMap() {
     function funcionErrorRuta() {
         alert("No ingresaste un origen y un destino validos");
     }
+
+    //NO ME FUNCIONO EL CODIGO PARA CONTAR LOS KM, CUANDO LO PONGO EN LA FUNCION Q DIBUJA LA RUTA, ME BORRA LA RUTA POR PONERME LOS KM
 /*
-    NO ME FUNCIONO EL CODIGO PARA CONTAR LOS KM
-    
     function contarKm(origen,destino){
       var bounds = new google.maps.LatLngBounds;
       var markersArray = [];
@@ -155,8 +155,10 @@ function initMap() {
       var destino = document.getElementById('destino').value;
 
 
-      var destinationIcon = crearMarcador();
-      var originIcon = crearMarcador();
+      var destinationIcon = 'https://chart.googleapis.com/chart?' +
+            'chst=d_map_pin_letter&chld=D|FF0000|000000';
+        var originIcon = 'https://chart.googleapis.com/chart?' +
+            'chst=d_map_pin_letter&chld=O|FFFF00|000000';
       var map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 55.53, lng: 9.4},
         zoom: 10
@@ -218,6 +220,6 @@ function deleteMarkers(markersArray) {
       }
       markersArray = [];
     }
-    */
+*/
 }
 
