@@ -115,14 +115,16 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 .section_conduce {
     background-image: url("../img/conduce.jpg");
     background-size: cover;
-    height: 400px;
+    background-position: center;
+}
+
+.section_conduce > .row > div {
     padding-right: 0;
-    background-position: 0 40%;
 }
 
 .contain_conduce {
-    background: rgba(0, 0, 0, 0.4);
-    padding: 60px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 6em 3em 12em 3em;
     color: white;
 }
 
@@ -136,13 +138,13 @@ ul.nav.navbar-nav.navbar-right li a:hover {
 }
 
 .contain_conduce h1 {
-    font-size: 2.2em;
+    font-size: 2.1em;
     font-weight: bold;
 }
 
 .contain_conduce p {
-    font-size: 1.4em;
-    padding-bottom: 10px;
+    font-size: 1.2em;
+    padding-bottom: 3px;
 }
 
 /* TARIFAS */
